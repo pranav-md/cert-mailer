@@ -21,6 +21,7 @@ for i in range(1,155) :
   	name= str(sheet.cell(i, 2).value)
   	email= str(sheet.cell(i, 0).value)
 
+
 	message = MIMEMultipart()
 	message['From'] = sender_address
 	message['To'] = email
